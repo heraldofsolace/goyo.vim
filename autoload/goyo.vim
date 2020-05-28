@@ -49,7 +49,7 @@ function! s:init_pad(command)
   execute a:command
 
   setlocal buftype=nofile bufhidden=wipe nomodifiable nobuflisted noswapfile
-      \ nonu nocursorline nocursorcolumn winfixwidth winfixheight statusline=\ 
+      \ nonu nocursorline nocursorcolumn winfixwidth winfixheight filetype=goyopadding statusline=\ 
   if exists('&rnu')
     setlocal nornu
   endif
